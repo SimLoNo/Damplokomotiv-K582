@@ -1,0 +1,66 @@
+.countyHeader{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:brown;
+    text-align: center;
+    background-color: #101010;
+    opacity: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.headerImage{
+    min-height: 20vh;
+}
+/* header{
+    background-image: url(img/Trailer_-_A_Place_to_call_Home.jpeg);
+    background-position: 0% 60%;
+} */
+
+.joinHeader{
+    background-image: url(img/Trailer_-_A_Place_to_call_Home.jpeg);
+    background-position: 50% 60%;
+}
+
+
+.homeHeader{
+    background-image: url(img/Trailer_-_A_Place_to_call_Home.jpeg);
+    background-position: 50% 60%;
+}
+
+.tradingHeader{
+    background-image: url(img/Trailer_-_Forest_Path.jpeg);
+    background-position: 30% 80%;
+}
+
+.craftingHeader{
+    background-image: url(img/Modular_House-building_Systems_w.jpeg);
+    background-position: 50% 60%;
+}
+
+.militaryHeader{
+    background-image: url(img/Trailer_-_On_the_Road.jpeg);
+    background-position: 60% 60%;
+}
+
+.magicHeader{
+    background-image: url(img/Myths_Are_Real_and_Magic_Unquestioned_w.jpeg);
+    background-position: 30% 30%;
+}
+
+body{
+    margin: 0;
+    background-color: blanchedalmond;
+}
+h2{
+    margin: 0;
+    text-align: center;
+}
+.mainSection{
+    margin: 0;
+}
+
+.discordLink{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
