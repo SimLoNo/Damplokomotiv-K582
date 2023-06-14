@@ -1,8 +1,8 @@
 .countyHeader{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:brown;
+    color:aliceblue;
     text-align: center;
-    background-color: #101010;
+    background-color: #cf2e2e;
     opacity: 90%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -23,8 +23,8 @@
 
 
 .homeHeader{
-    background-image: url(img/Trailer_-_A_Place_to_call_Home.jpeg);
-    background-position: 50% 60%;
+    background-image: url(img/main1.jpg);
+    background-position: 50% 50%;
 }
 
 .tradingHeader{
@@ -49,7 +49,6 @@
 
 body{
     margin: 0;
-    background-color: blanchedalmond;
 }
 h2{
     margin: 0;
@@ -63,4 +62,60 @@ h2{
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
+}
+.mainColour{
+    background-color: #cf2e2e;
+    color: black;
+}
+.secondaryColour{
+    background-color: aliceblue;
+}
+.secondaryText{
+    color: aliceblue;
+    background-color: black;
+}
+a:focus, a:hover{
+    background-color: #8f1919;
+}
+nav {
+
+    background-color: #8f1919;
+    color: aliceblue;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    background-color: #8f1919;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: aliceblue;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{
+    background-color: #8f1919;
+
+}
+.container-fluid{
+    margin: 0,0,0,0;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.portrait{
+    border-radius: 50%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alignRight{
+    float:right
+}
+.textCenter{
+    text-align: center;
+}
+.newsImage{
+    max-width: 60vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
