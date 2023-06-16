@@ -57,6 +57,12 @@ h2{
 .mainSection{
     margin: 0;
 }
+.flex{
+    display: flex;
+}
+.member-Text{
+    align-self: center;
+}
 
 .discordLink{
     text-align: center;
@@ -122,4 +128,17 @@ nav {
 .engineImage{
     max-width: 100%;
     height: auto;
+}
+
+.memberSection .col-md-height {
+    display: flex;
+    align-items: stretch;
+}
+  
+.memberSection .inner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
 }
