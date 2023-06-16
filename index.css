@@ -168,3 +168,7 @@ video {
 .alightElementsRight{
     text-align: right;
 }
+
+.navbar.navbar-inverse {
+    border-radius: 0; /* Remove the border radius */
+  }

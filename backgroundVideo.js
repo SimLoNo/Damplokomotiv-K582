@@ -1,32 +1,30 @@
-$(document).ready(function() {
+window.onload = function() {
     // Adjust the video dimensions on page load
     adjustVideoSize();
   
     // Adjust the video dimensions on window resize
-    $(window).on('resize', adjustVideoSize);
-  });
+    window.addEventListener('resize', adjustVideoSize);
+  };
   
   function adjustVideoSize() {
-    var video = $('#video-background video');
-    var videoContainer = $('#video-background');
+    var video = document.getElementById('video-background').querySelector('video');
+    var videoContainer = document.getElementById('video-background');
   
     // Calculate the video dimensions
-    var videoRatio = video.width() / video.height();
-    var windowRatio = $(window).width() / $(window).height();
+    var videoRatio = video.videoWidth / video.videoHeight;
+    var windowRatio = window.innerWidth / window.innerHeight;
     var videoWidth, videoHeight;
   
     if (windowRatio > videoRatio) {
-      videoWidth = $(window).width();
+      videoWidth = window.innerWidth;
       videoHeight = videoWidth / videoRatio;
     } else {
-      videoHeight = $(window).height();
+      videoHeight = window.innerHeight;
       videoWidth = videoHeight * videoRatio;
     }
   
     // Apply the dimensions to the video container
-    videoContainer.css({
-      width: videoWidth,
-      height: videoHeight
-    });
+    videoContainer.style.width = videoWidth + 'px';
+    videoContainer.style.height = videoHeight + 'px';
   }
   
